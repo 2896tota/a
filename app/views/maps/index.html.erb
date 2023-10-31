@@ -1,0 +1,33 @@
+<div id='map'></div>
+
+<style>
+    #map {
+        height: 500px;
+        width: 500px;
+    }
+</style>
+
+<script>
+    let map
+
+    const display = document.getElementById('display')
+
+    // mapの表示関数 
+    function initMap() {
+        geocoder = new google.maps.Geocoder()
+
+        // mapの初期位置, 縮尺を定義
+        map = new google.maps.Map(document.getElementById('map'), {
+            center: {
+                lat: 35.001637,
+                lng: 135.767667
+            },
+            zoom: 15,
+        });
+     }
+</script>
+
+<script
+    src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&callback=initMap"  
+    async defer>
+</script>

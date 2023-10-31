@@ -1,0 +1,24 @@
+<div class="jingutop">
+  JINGU STADIUM
+</div>
+
+<div class="main">
+</div>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/aTGisAhJk5Q?si=cuYIJPD0gwHD4V8k" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/YJHqoQ1ftZU?si=Kfo787vMvRfJKQSi" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3241.101929824822!2d139.71488761744385!3d35.674492099999995!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60188c9a0eb42e39%3A0x5a174085841c5258!2z5piO5rK756We5a6u6YeO55CD5aC0!5e0!3m2!1sja!2sjp!4v1697296299459!5m2!1sja!2sjp" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+<%= link_to "新規投稿ページへ", new_ball4_path %>
+
+<div class="tweets-container">
+  <% @ball4s.each do |t| %>
+    <div class="ball4">
+      <%= t.review4 %>
+      <%= t.created_at %>
+    </div>
+  <% end %>
+</div>
+
+<%= link_to "トップページへ", balls_top_path %>
+

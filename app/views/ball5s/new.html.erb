@@ -1,0 +1,8 @@
+<%= form_for @ball5 do |t| %>
+    <div class="field">
+      <%= t.label :body %>
+      <%= t.text_field :review5, :size => 140 %>
+    </div>
+    <%= t.submit "Tweetする" %>
+<% end %>
+<%= link_to "Tweet一覧に戻る", balls_tokyo_path %>
