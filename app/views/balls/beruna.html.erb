@@ -1,19 +1,58 @@
-球団：東京ヤクルトスワローズ
-応援の様子<br><iframe width="560" height="315" src="https://www.youtube.com/embed/HHe8-JK6gLE?si=4EOlSLgaO6lwumO_" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></br>
-<iframe width="560" height="315" src="https://www.youtube.com/embed/EZXntHLSDVc?si=6hnUjfG0xH4gg4GI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3237.2589312443156!2d139.4201912!3d35.7690154!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6018de26f47cfbd3%3A0xa09b9b1c140042ce!2z44OZ44Or44O844OK44OJ44O844Og!5e0!3m2!1sja!2sjp!4v1697296343577!5m2!1sja!2sjp" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+<div class="berunatop">
+ <div class="berunatitle">
+  <br>BERUNA DOME</br>
+ </div>
+</div>
+ 
+<div class=lmain>
+ <div class="title22">
+ TEAM
+ </div>
 
-<%= link_to "新規投稿ページへ", new_ball1_path %>
+ <div class="text22">
+ 埼玉西武ライオンズ
+ </div>
 
-<div class="tweets-container">
+ <div class="title23">
+ PLAYERS
+ </div>
+ <%= image_tag 'kona.jpg', class:"seibu1" %>
+ <%= image_tag 'genda.jpg', class:"seibu2" %>
+
+ <div class="title24">
+ <h1>VIDEOS</h1>
+ <iframe width="560" height="315" src="https://www.youtube.com/embed/HHe8-JK6gLE?si=4EOlSLgaO6lwumO_" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></br>
+ <iframe width="560" height="315" src="https://www.youtube.com/embed/EZXntHLSDVc?si=6hnUjfG0xH4gg4GI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+ </div>
+ 
+ <div class="title25">
+ <h1>MAPS</h1>
+ <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3237.2589312443156!2d139.4201912!3d35.7690154!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6018de26f47cfbd3%3A0xa09b9b1c140042ce!2z44OZ44Or44O844OK44OJ44O844Og!5e0!3m2!1sja!2sjp!4v1697296343577!5m2!1sja!2sjp" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+ </div>
+
+ <div class="title26">
+ FEATURES
+ </div>
+
+ <div class="text26">
+ ①球界屈指の球場飯が楽しめる
+ <br>②遊園地が近いため、一日中楽しめる</br>
+ ③球界屈指の人気の応援が魅力
+ </div>
+
+
+
+ <%= link_to("コメントしてみよう！", new_ball1_path,{class:"linkl"}) %>
+
+ <div class="tweets-container">
   <% @ball1s.each do |t| %>
     <div class="ball1">
       <%= t.review1 %>
       <%= t.created_at %>
     </div>
   <% end %>
+ </div>
 </div>
-
 <%= link_to "トップページへ", balls_top_path %>
 
 <!DOCTYPE html> 

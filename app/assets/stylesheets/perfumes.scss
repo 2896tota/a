@@ -1,3 +1,166 @@
 // Place all the styles related to the perfumes controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: https://sass-lang.com/
+
+
+.perfume0{
+  border: solid 1px #ffffff;
+  width: 1000px;
+  height: 300px;
+  margin-left: 200px;  
+  margin-top: 200px;
+  padding-top: 50px;
+}
+
+.linkA{
+  
+  color: rgb(255, 255, 255);
+  
+  margin-top: 60px;
+  
+  margin-left: 200px;
+  font-size: 100px;
+  text-decoration: none;
+  height: 100vh;
+  font-family: 'M PLUS Rounded 1c', sans-serif;
+  
+}
+
+
+
+.textper{
+  color: #ffffff;
+  font-size: 20px;
+  margin-left: 350px;
+  margin-top: 40px;
+
+}
+
+body{
+  height: 4000px;
+}
+
+.box1{
+    border: solid 1px #ffffff;
+    width: 1000px;
+    height: 500px;
+    margin-left: 200px;
+    margin-top: 160px;
+    font-size: 50px;
+}
+
+.textp0{
+  font-size: 100px;
+  font-family: 'Kumar One', serif;
+  margin-left: 10px;
+}
+
+
+
+.textp1{
+  text-align: center;
+  margin-top: 10px;
+}
+
+
+
+
+.box2{
+  border: solid 1px #ffffff;
+  width: 1000px;
+  height: 140px;
+  margin-left: 200px;  
+  margin-top: 200px;
+  position: absolute;
+}
+
+.image1{
+  height: 30vh;
+  margin-left: 900px;
+  z-index: -100;
+}
+
+.box3{
+  border: solid 1px #ffffff;
+  width: 1000px;
+  height: 140px;
+  margin-left: 200px;  
+  margin-top: 350px;
+  position: absolute
+}
+
+.linkB,.linkc{
+  margin-left: 350px;
+  font-size: 100px;  
+  text-decoration: none;
+  font-family: 'Kumar One', serif;
+  color: rgb(255, 255, 255);
+}
+
+.image2{
+  height: 30vh;
+  margin-left: 250px;
+  margin-top: 140px;
+}
+
+.box4{
+  border: solid 1px #ffffff;
+  width: 1000px;
+  height: 140px;
+  margin-left: 200px;  
+  margin-top: 300px;
+  position: absolute;
+}
+
+.image3{
+  height: 35vh;
+  margin-left: 250px;
+  margin-top: 140px;
+}
+
+.box5{
+  border: solid 1px #ffffff;
+  width: 1000px;
+  height: 140px;
+  margin-left: 200px;  
+  margin-top: 280px;
+  position: absolute
+}
+
+.image4{
+  
+  height: 30vh;
+  margin-left: 900px;
+  margin-top: 100px;
+  z-index: -100;
+}
+
+.box6{
+  border: solid 1px #ffffff;
+  width: 1000px;
+  height: 140px;
+  margin-left: 200px;  
+  margin-top: 200px;
+  position: absolute;
+}
+
+.image5{
+  height: 30vh;
+  margin-left: 900px;
+  z-index: -100;
+}
+
+.box7{
+  border: solid 1px #ffffff;
+  width: 1000px;
+  height: 140px;
+  margin-left: 200px;  
+  margin-top: 280px;
+  position: absolute;
+}
+
+.image6{
+  height: 30vh;
+  margin-left: 250px;
+  margin-top: 120px;
+}

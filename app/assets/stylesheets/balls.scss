@@ -13,9 +13,10 @@
 }
 
   body {
-    font-family: "Hiragino Kaku Gothic Pro", "ヒラギノ角ゴ Pro W3", "メイリオ",
-    Meiryo, "ＭＳ Ｐゴシック", sans-serif;
+    font-family: 'Noto Sans JP', sans-serif;
+    color: white;
     background-color: #1C3862;
+
   }
   
  .container{
@@ -31,8 +32,15 @@
     font-family: "Mochiy Pop P One", sans-serif;
   }
   
+  .title{
+    color: #ffffff;
+    font-family: 'Kumar One', serif;
+    text-decoration: none;
+
+  }
+
   header h1 {
-    color: #272b25;
+    color: #ffffff;
     margin-left: 20px;
   }
   
@@ -48,21 +56,114 @@
   header li {
     list-style: none;
     margin-right: 40px;
-    text-decoration: underline dotted #272b25;
-    text-underline-offset: 20%;
+    text-decoration-line: none;
+    color: #ffffff;
+  }
+
+  .linkhe3 a{
+    list-style: none;
+    margin-right: 40px;
+    text-decoration-line: none;
+    color: #ffffff;
+  }
+
+  .header-list a{
+    list-style: none;
+    margin-right: 40px;
+    text-decoration-line: none;
+    color: #ffffff;
+  }
+  .toppage{
+    background-image: url("jingu.jpg");
+     
+      width: 100%;
+      min-height: 60vh;
+      background-size: 50%;
+      font-size: 110px;
+      text-align: left;
+      color: #A68989;
+      font-family: 'Kumar One', serif;
+      background-position: 90% -10%;
+      background-repeat: no-repeat;
+  }
+  
+  .title0{
+    margin-top: 50px;
+    margin-left: 50px;
+  }
+  
+  .main1{
+    height: 120%;
+  }
+  
+
+  .title1{
+    font-size: 70px;
+    font-family: 'Kumar One', serif;
+    color: #ffffff;
+    margin-left: 50px;
+  }
+
+  .title2{
+    font-size: 70px;
+    font-family: 'Kumar One', serif;
+    color: #ffffff;
+    margin-left: 50px;
+  }
+
+  .text{
+    font-size: 20px;
+    text-decoration: none;
+    margin-left: 50px;
+    color: #ffffff;
+  }
+
+  .text1{
+    font-size: 20px;
+    color: #ffffff;
+    margin-left: 50px;
+  }
+
+  .link{
+    font-size: 50px;
+    color: #ffffff;
+    margin-left: 50%;
+    font-family: 'Kumar One', serif;
+    margin-bottom: 2%;
+    text-decoration: none;
+  }
+
+  .link1,.link2,.link3,.link4,.link5{
+    font-size: 30px;
+    color: #ffffff;
+    margin-left: 30px;
+    font-family: 'Kumar One', serif;
+    margin-bottom: -10px;
+    text-decoration: none; 
+  }
+
+  .box0{
+    height: 10%;
+    color: #1C3862;
   }
 
   .jingutop{
     background-image: url("jingu2.jpg");
     width: 100%;
-    height: 100vh;
+    min-height: 90vh;
     background-size: cover;
-    font-size: 100px;
+    font-size: 80px;
     color: rgb(255, 255, 255);
+    font-family: 'Kumar One', serif;
+    background-position: top;
+    background-repeat: no-repeat;
     text-align: center;
-    justify-content: center;
+
   }
   
+  h1.jingutop{
+    margin-top: 80px;
+  }
   footer {
     display: flex;
     justify-content: center;
@@ -76,6 +177,406 @@
     width: 100%;
   }
 
-  main{
-    background-color: aqua;
+  
+
+  .title3,.title4{
+    font-size: 100px;
+    color: #ffffff;
+    margin-left: 50px;
+    font-family: 'Kumar One', serif;
+    margin-bottom: -10px;
+  }
+  
+  .text3{
+    font-size: 60px;
+    color: #ffffff;
+    margin-left: 70px;
+    margin-bottom: 20px;
+  }
+
+  .text00{
+    margin-left: 100px;
+    font-size: 40px;
+  }
+
+  .text000{
+    margin-left: 1150px;
+    font-size: 40px;
+  }
+
+  .yakult1,.yakult2{
+    width: 40%;
+    height: 40%;
+    margin-left: 100px;
+  }
+
+  
+
+  .title5,.title05{
+    font-size: 50px;
+    color: #ffffff;
+    margin-left: 50px;
+    font-family: 'Kumar One', serif;
+    margin-bottom: -10px;
+    text-decoration: none;
+  }
+
+  
+
+  .title6{
+    font-size: 100px;
+    color: #ffffff;
+    margin-left: 50px;
+    font-family: 'Kumar One', serif;
+    margin-bottom: -10px;
+  }
+
+  .text6{
+    font-size: 60px;
+    color: #ffffff;
+    margin-left: 70px;
+    margin-bottom: 20px;
+  }
+
+
+  .linkj{
+    font-size: 50px;
+    color: #ffffff;
+    margin-left: 55%;
+    font-family: 'Kumar One', serif;
+    margin-bottom: -10px;
+    text-decoration: none;
+  }
+  
+  .tweets-container{
+    margin-left: 75%
+  }
+  
+  .tokyotop{
+    background-image: url("tokyo.jpg");
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    font-size: 100px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    background-repeat: no-repeat;
+    background-position: 50% 100%;
+    font-family: 'Kumar One', serif;
+  }
+
+  h1.tokyotop{
+    margin-top: 120%;
+
+  }
+  
+  .title7{
+    font-size: 100px;
+    color: #ffffff;
+    margin-left: 50px;
+    font-family: 'Kumar One', serif;
+    margin-bottom: -10px;
+  }
+
+  .text7{
+    font-size: 60px;
+    color: #ffffff;
+    margin-left: 70px;
+    margin-bottom: 20px;
+  } 
+  
+  .title8{
+    font-size: 100px;
+    color: #ffffff;
+    margin-left: 50px;
+    font-family: 'Kumar One', serif;
+    margin-bottom: -10px;
+  }
+
+  .tokyo1,.tokyo2{
+    width: 40%;
+    height: 40%;
+    margin-left: 100px;
+  }
+  
+  .title9,.title10{
+    font-size: 50px;
+    color: #ffffff;
+    margin-left: 50px;
+    font-family: 'Kumar One', serif;
+    margin-bottom: -10px;
+    text-decoration: none;
+  }
+
+  .title11{
+    font-size: 100px;
+    color: #ffffff;
+    margin-left: 50px;
+    font-family: 'Kumar One', serif;
+    margin-bottom: -10px;
+  }
+
+  .text11{
+    font-size: 60px;
+    color: #ffffff;
+    margin-left: 70px;
+    margin-bottom: 20px;
+  }
+
+  .linkg{
+    font-size: 50px;
+    color: #ffffff;
+    margin-left: 55%;
+    font-family: 'Kumar One', serif;
+    margin-bottom: -10px;
+    text-decoration: none;
+  }
+
+  .hamatop{
+    background-image: url("hama.webp");
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    font-size: 130px;
+    color: rgb(0, 0, 0);
+    text-align: left;
+    background-repeat: no-repeat;
+    background-position: 50% 100%;
+    font-family: 'Kumar One', serif;
+  }
+
+  h1.hamatop{
+    margin-top: 70px;
+  }
+
+  .title12{
+    font-size: 100px;
+    color: #ffffff;
+    margin-left: 50px;
+    font-family: 'Kumar One', serif;
+    margin-bottom: -10px;
+  }
+
+  .text12{
+    font-size: 60px;
+    color: #ffffff;
+    margin-left: 70px;
+    margin-bottom: 20px;
+  } 
+
+  .title13{
+    font-size: 100px;
+    color: #ffffff;
+    margin-left: 50px;
+    font-family: 'Kumar One', serif;
+    margin-bottom: -10px;
+  }
+
+  .hama1,.hama2{
+    width: 40%;
+    height: 40%;
+    margin-left: 100px;
+  }
+
+  .title14,.title15{
+    font-size: 50px;
+    color: #ffffff;
+    margin-left: 50px;
+    font-family: 'Kumar One', serif;
+    margin-bottom: -10px;
+    text-decoration: none;
+  }
+
+  .title16{
+    font-size: 100px;
+    color: #ffffff;
+    margin-left: 50px;
+    font-family: 'Kumar One', serif;
+    margin-bottom: -10px;
+  }
+
+  .text16{
+    font-size: 55px;
+    color: #ffffff;
+    margin-left: 70px;
+    margin-bottom: 20px;
+    margin-right: 70px;
+  }
+
+  .linky{
+    font-size: 50px;
+    color: #ffffff;
+    margin-left: 55%;
+    font-family: 'Kumar One', serif;
+    margin-bottom: -10px;
+    text-decoration: none;
+  }
+
+  .chibatop{
+    background-image: url("chiba.jpg");
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    font-size: 100px;
+    color: rgb(255, 255, 255);
+    text-align: right;
+    background-repeat: no-repeat;
+    background-position: 50% 80%;
+    font-family: 'Kumar One', serif;
+  }
+
+  
+
+  .chibatitle{
+    margin-right: 20px;
+    margin-bottom: 180%;
+  }
+
+  .title17{
+    font-size: 100px;
+    color: #ffffff;
+    margin-left: 50px;
+    font-family: 'Kumar One', serif;
+    margin-bottom: -10px;
+  }
+
+  .text17{
+    font-size: 60px;
+    color: #ffffff;
+    margin-left: 70px;
+    margin-bottom: 20px;
+  } 
+
+  .title18{
+    font-size: 100px;
+    color: #ffffff;
+    margin-left: 50px;
+    font-family: 'Kumar One', serif;
+    margin-bottom: -10px;
+  }
+
+  .chiba1,.chiba2{
+    width: 40%;
+    height: 40%;
+    margin-left: 100px;
+  }
+
+  .title19,.title20{
+    font-size: 55px;
+    color: #ffffff;
+    margin-left: 50px;
+    font-family: 'Kumar One', serif;
+    margin-bottom: -10px;
+  }
+
+  .text19{
+    font-size: 55px;
+    color: #ffffff;
+    margin-left: 70px;
+    margin-bottom: 20px;
+    margin-right: 70px;
+  }
+
+  .title21{
+    font-size: 100px;
+    color: #ffffff;
+    margin-left: 50px;
+    font-family: 'Kumar One', serif;
+    margin-bottom: -10px;
+  }
+
+  .text21{
+    font-size: 55px;
+    color: #ffffff;
+    margin-left: 70px;
+    margin-bottom: 20px;
+    margin-right: 70px;
+  }
+
+  
+
+  .linkm{
+    font-size: 50px;
+    color: #ffffff;
+    margin-left: 55%;
+    font-family: 'Kumar One', serif;
+    margin-bottom: -10px;
+    text-decoration: none;
+  }
+
+
+
+  .berunatop{
+    background-image: url("beruna.png");
+    width: 100%;
+    min-height: 100vh;
+    background-size: cover;
+    font-size: 140px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    background-repeat: no-repeat;
+    background-position: 0px -120px;
+    font-family: 'Kumar One', serif;
+  }
+
+  .title22{
+    font-size: 100px;
+    color: #ffffff;
+    margin-left: 50px;
+    font-family: 'Kumar One', serif;
+    margin-bottom: -10px;
+  }
+
+  .text22{
+    font-size: 60px;
+    color: #ffffff;
+    margin-left: 70px;
+    margin-bottom: 20px;
+  } 
+
+  .title23{
+    font-size: 100px;
+    color: #ffffff;
+    margin-left: 50px;
+    font-family: 'Kumar One', serif;
+    margin-bottom: -10px;
+  }
+
+  .seibu1,.seibu2{
+    width: 40%;
+    height: 40%;
+    margin-left: 100px;
+  }  
+
+  .title24,.title25{
+    font-size: 55px;
+    color: #ffffff;
+    margin-left: 50px;
+    font-family: 'Kumar One', serif;
+    margin-bottom: -10px;
+  }
+
+  .title26{
+    font-size: 100px;
+    color: #ffffff;
+    margin-left: 50px;
+    font-family: 'Kumar One', serif;
+    margin-bottom: -10px;
+  }
+
+  .text26{
+    font-size: 55px;
+    color: #ffffff;
+    margin-left: 70px;
+    margin-bottom: 20px;
+    margin-right: 70px;
+  }
+
+  .linkl{
+    font-size: 50px;
+    color: #ffffff;
+    margin-left: 55%;
+    font-family: 'Kumar One', serif;
+    margin-bottom: -10px;
+    text-decoration: none;
   }

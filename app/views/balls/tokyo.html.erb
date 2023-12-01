@@ -1,15 +1,56 @@
-<iframe width="560" height="315" src="https://www.youtube.com/embed/YjZblaVbc30?si=53ppuUSUxjUeppW0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-<iframe width="560" height="315" src="https://www.youtube.com/embed/XSTwjwb09SY?si=GeyPwUUnZDo2l1Vd" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3239.8365514739394!2d139.75189129999998!3d35.70563959999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60188c4782eed4f3%3A0x5058b288249e640e!2z5p2x5Lqs44OJ44O844Og!5e0!3m2!1sja!2sjp!4v1697296401242!5m2!1sja!2sjp" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-<%= link_to "新規投稿ページへ", new_ball5_path %>
+<div class="tokyotop">
+  <h1>TOKYO DOME</h1>
+</div>
 
-<div class="tweets-container">
+<div class="gmain">
+ <div class=title7>
+ TEAM
+ </div>
+ 
+ <div class=text7>
+ 読売巨人軍
+ </div>
+ 
+ <div class=title8>
+ PLAYERS
+ </div>
+ <%= image_tag 'okamoto.jpg', class:"tokyo1" %>
+ <%= image_tag 'togo.jpg', class:"tokyo2" %>
+
+ <div class=title9>
+ <h1>VIDEOS</h1>
+
+
+ <iframe width="560" height="315" src="https://www.youtube.com/embed/YjZblaVbc30?si=53ppuUSUxjUeppW0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+ <iframe width="560" height="315" src="https://www.youtube.com/embed/XSTwjwb09SY?si=GeyPwUUnZDo2l1Vd" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+ </div>
+
+ <div class="title10">
+ <h1>MAPS</h1>
+ <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3239.8365514739394!2d139.75189129999998!3d35.70563959999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60188c4782eed4f3%3A0x5058b288249e640e!2z5p2x5Lqs44OJ44O844Og!5e0!3m2!1sja!2sjp!4v1697296401242!5m2!1sja!2sjp" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+ 水道橋駅から徒歩5～10分
+ </div>
+
+ </div>
+ <div class="title11">
+ FEATURES
+ </div>
+
+ <div class="text11">
+ ①快適に観戦ができる
+ <br>②豪華な演出が魅力</br>
+ ③遊園地やスパ、ホテルなど<br>一日中遊びつくせる</br>
+ </div>
+
+ <%= link_to("コメントしてみよう！", new_ball5_path,{class:"linkg"}) %>
+
+ <div class="tweets-container">
   <% @ball5s.each do |t| %>
     <div class="ball5">
       <%= t.review5 %>
       <%= t.created_at %>
     </div>
   <% end %>
+ </div>
 </div>
-
 <%= link_to "トップページへ", balls_top_path %>

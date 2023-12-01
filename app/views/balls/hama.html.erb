@@ -1,15 +1,56 @@
-<iframe width="560" height="315" src="https://www.youtube.com/embed/ilYcFOoYJvY?si=4ay3_8HxdV7VbmCH" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-<iframe width="560" height="315" src="https://www.youtube.com/embed/COp-ckwd_9E?si=rLr54p0YdF85gcJi" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3250.4673238482014!2d139.6401002!3d35.4432233!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60185cf00a02a6ab%3A0xeeb4da826f10076c!2z5qiq5rWc44K544K_44K444Ki44Og!5e0!3m2!1sja!2sjp!4v1697296464653!5m2!1sja!2sjp" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-<%= link_to "新規投稿ページへ", new_ball3_path %>
+<div class="hamatop">
+ <br>YOKOHAMA</br> STADIUM
+</div>
 
-<div class="tweets-container">
+<div class="ymain">
+ <div class=title12>
+ TEAM
+ </div>
+ 
+ <div class=text12>
+ 横浜DeNAベイスターズ
+ </div>
+ 
+ <div class=title13>
+ PLAYERS
+ </div>
+ <%= image_tag 'imanaga.jpg', class:"hama1" %>
+ <%= image_tag 'maki2.jpg', class:"hama2" %>
+
+ <div class=title14>
+ <h1>VIDEOS</h1>
+
+ <iframe width="560" height="315" src="https://www.youtube.com/embed/ilYcFOoYJvY?si=4ay3_8HxdV7VbmCH" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+ <iframe width="560" height="315" src="https://www.youtube.com/embed/COp-ckwd_9E?si=rLr54p0YdF85gcJi" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+ </div>
+
+ <div class="title15">
+ <h1>MAPS</h1>
+ <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3250.4673238482014!2d139.6401002!3d35.4432233!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60185cf00a02a6ab%3A0xeeb4da826f10076c!2z5qiq5rWc44K544K_44K444Ki44Og!5e0!3m2!1sja!2sjp!4v1697296464653!5m2!1sja!2sjp" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+ 関内駅から徒歩5～10分
+ </div>
+ 
+ </div>
+ <div class="title16">
+ FEATURES
+ </div>
+
+ <div class="text16">
+ ①花火と光が融合した豪華な演出が楽しめる
+ <br>②試合中のイベントが沢山あり、飽きることがない</br>
+ ③ヤスアキジャンプは盛り上がること間違いなし！
+ </div>
+
+
+ <%= link_to("コメントしてみよう！", new_ball3_path,{class:"linky"}) %>
+
+ <div class="tweets-container">
   <% @ball3s.each do |t| %>
     <div class="ball3">
       <%= t.review3 %>
       <%= t.created_at %>
     </div>
   <% end %>
+ </div>
 </div>
-
 <%= link_to "トップページへ", balls_top_path %>

@@ -13,3 +13,30 @@
  *= require_tree .
  *= require_self
  */
+
+.logo{
+    width:10vw;
+    
+
+}
+
+.header-list{
+    color: #fff;
+    text-decoration: none
+}
+
+.linkhe1{
+   
+   color: rgb(255, 255, 255);
+     
+}
+
+.linkhe2{
+    
+   color: rgb(255, 255, 255);
+}
+
+.linkhe3{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}

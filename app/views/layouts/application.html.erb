@@ -7,22 +7,35 @@
     <%= csp_meta_tag %>
 
     <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
-    <%#= javascript_pack_tag 'application', 'data-turbolinks-track': 'reload' %>
+    <%= javascript_pack_tag 'application', 'data-turbolinks-track': 'reload' %>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@800&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Kumar+One&family=Noto+Sans+JP:wght@800&display=swap" rel="stylesheet">
   </head>
 
   <body>
    <header>
-     <h1>LOVASEBALL</h1>
+   <ul>
+   <%= image_tag 'logo2.png', class:'logo' %>
+   </ul>
+
      <div class="header-list">
-     <ul>
-      <li><%= link_to "ホーム", balls_top_path %></li>      
-     </ul>
+     <li><%= link_to("トップページ", balls_top_path,{class:"linkhe1"}) %> </li>
+     <li><%= link_to("野球場診断", perfumes_index_path,{class:"linkhe2"}) %> </li>
+      <div class="linkhe3">
+      <l1><%= link_to "ログアウト", destroy_user_session_path, method: :delete %></li>
+      </div>
      </div>
+
+     
    </header>
     <%= yield %>
   </body>
 
   <footer>
-    <small>©CSS Seminar</small>
+    <small>©onishitota</small>
   </footer>
 </html>

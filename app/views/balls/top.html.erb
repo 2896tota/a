@@ -1,13 +1,32 @@
-<h1>1.明治神宮野球場</h1><h4><%= link_to "詳細へ", balls_jingu_path %></h4>
-<h1>2.東京ドーム</h1><h4><%= link_to "詳細へ", balls_tokyo_path %></h4>
-<h1>3.横浜スタジアム</h1><h4><%= link_to "詳細へ", balls_hama_path %></h4>
-<h1>4.ベルーナドーム</h1><h4><%= link_to "詳細へ", balls_beruna_path %></h4>
-<h1>5.zozoマリンスタジアム</h1><h4><%= link_to "詳細へ", balls_chiba_path %></h4>
-<%= button_to 'ログアウト', destroy_user_session_path, method: :delete %>
-<%= link_to "球場診断をしてみる", perfumes_index_path %>
+<div class="toppage">
+ <div class="title0">
+ DO YOU 
+ ENJOY BASEBALL?
+</div>
+</div>
+
+<div class="main1">
+ <div class="title1">
+  BALLPARK
+ </div>
+ <div class="text"> 
+  <h1>1.明治神宮野球場</h1><%= link_to(">>>詳しく見てみる", balls_jingu_path,{class:"link1"}) %>
+  <h1>2.東京ドーム</h1><h4><%= link_to(">>>詳しく見てみる", balls_tokyo_path,{class:"link2"}) %></h4>
+  <h1>3.横浜スタジアム</h1><h4><%= link_to(">>>詳しく見てみる", balls_hama_path,{class:"link3"}) %></h4>
+  <h1>4.ベルーナドーム</h1><h4><%= link_to(">>>詳しく見てみる", balls_beruna_path,{class:"link4"}) %></h4>
+  <h1>5.zozoマリンスタジアム</h1><h4><%= link_to(">>>詳しく見てみる", balls_chiba_path,{class:"link5"}) %></h4>
+ </div>
+ <div class="title2">
+  DAIAGNOSIS
+ </div>
+ <div class="text1">
+  <h2>野球場診断で自分に合った野球場を見つけよう！</h2>
+ </div>
+
+ 
+ <%= link_to("<<<LET'S START>>>", perfumes_index_path,{class:"link"}) %>
+
 
 <!DOCTYPE html> 
 <html lang="ja">
 
-<div class="A">
- <div class="image1">

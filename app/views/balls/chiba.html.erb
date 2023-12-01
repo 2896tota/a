@@ -1,14 +1,57 @@
-<iframe width="560" height="315" src="https://www.youtube.com/embed/KMiFvj88_RY?si=7Elt5GsCyKjkNKaz" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3242.2927501659256!2d140.0308307!3d35.6451583!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x602281f64a6b928d%3A0x6df5d2c745778da9!2zWk9aT-ODnuODquODs-OCueOCv-OCuOOCouODoA!5e0!3m2!1sja!2sjp!4v1697296198784!5m2!1sja!2sjp" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-<%= link_to "新規投稿ページへ", new_ball2_path %>
+<div class="chibatop">
+ <div class="chibatitle">
+  <br>ZOZO</br>
+  MARINE
+  <br>STADIUM</br>
+ </div> 
+</div>
 
-<div class="tweets-container">
-  <% @ball2s.each do |t| %>
+<div class="ymain">
+  <div class=title17>
+  TEAM
+  </div>
+  
+  <div class="text17">
+  千葉ロッテマリーンズ
+  </div>
+
+  <div class="title18">
+  PLAYERS
+  </div>
+  <%= image_tag 'roki.jpg', class:"chiba1" %>
+  <%= image_tag 'poranko.jpg', class:"chiba2" %>
+
+  <div class="title19">
+  <h1>VIDEOS</h1>
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/KMiFvj88_RY?si=7Elt5GsCyKjkNKaz" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/l0HYfoPfCdc?si=Bwf9vT6eExF-UHkR" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+  </div>
+
+  <div class="title20">
+  <h1>MAPS</h1>
+  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3242.2927501659256!2d140.0308307!3d35.6451583!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x602281f64a6b928d%3A0x6df5d2c745778da9!2zWk9aT-ODnuODquODs-OCueOCv-OCuOOCouODoA!5e0!3m2!1sja!2sjp!4v1697296198784!5m2!1sja!2sjp" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>海浜幕張駅から徒歩30分<br>バスで5分</br>
+  </div>
+
+  <div class="title21">
+  FEATURES
+  </div>
+
+  <div class="text21">
+  ①リーグ屈指の声量の応援が球場に響き渡る
+  ②周りに大きい建物がないためとても開放的
+  ③強風による予想外なプレーが楽しめる
+  </div>
+
+
+  <%= link_to("コメントしてみよう！", new_ball2_path,{class:"linkm"}) %>
+
+  <div class="tweets-container">
+   <% @ball2s.each do |t| %>
     <div class="ball2">
       <%= t.review2 %>
       <%= t.created_at %>
     </div>
-  <% end %>
+   <% end %>
+  </div>
 </div>
-
 <%= link_to "トップページへ", balls_top_path %>
